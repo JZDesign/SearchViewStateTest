@@ -1,0 +1,12 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true"
+        android:theme="@style/SearchViewStyle"/>
+
+    <item android:state_focused="false"
+        android:textColorPrimary="@color/gray"
+        android:textColorSecondary="@color/gray"
+        android:colorAccent="@color/gray"/>
+    <item android:color="@color/white" />
+
+</selector>
